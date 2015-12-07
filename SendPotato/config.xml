@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/SendPotato" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"></access>
+    <tizen:allow-navigation>www.parse.com</tizen:allow-navigation>
     <tizen:application id="ItkhHYp0hM.SendPotato" package="ItkhHYp0hM" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
     <name>SendPotato</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:profile name="wearable"/>
-    <access origin="*" subdomains="true"></access>
-	<tizen:allow-navigation>www.parse.com</tizen:allow-navigation>
-	<tizen:privilege name="http://tizen.org/privilege/internet"/>
 </widget>
