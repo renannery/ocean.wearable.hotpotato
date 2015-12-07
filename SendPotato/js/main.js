@@ -10,7 +10,7 @@ window.onload = function() {
             } catch (ignore) {}
     });
 
-    document.getElementById('btnSendPotato')
+    document.getElementById('content_text')
         .addEventListener('click', function() {
             var potatoes = ["Batata", "Joelson", "Pafuncio", "Richarlyson", "Mr potato"];
             for (i = 0; i < potatoes.length; i++) {

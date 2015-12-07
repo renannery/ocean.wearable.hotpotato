@@ -1,23 +1,26 @@
-* {
-    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
-body {
-    margin: 0px auto;
-    background-color:#222;
+#container {
+    width: 100%;
+    height: 100%;
+    display: table;
 }
 
-.contents {
-	display: flex;
-	display: -webkit-flex;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	height:320px;
+#contents {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color:#FFA500;
+    -webkit-tap-highlight-color: transparent;
 }
 
-
-.content_text {
-	font-weight:bold;
-	font-size:5em;
-	color:#fff;
+#content_text {
+    font-weight: bold;
+    font-size: 5em;
+    color: #ffffff;
 }

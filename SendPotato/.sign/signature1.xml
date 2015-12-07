@@ -4,15 +4,15 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>X9pqRVL0CqwumHYDif0LQxWrXBxDohrBTq9rKq0YCAc=</DigestValue>
+<DigestValue>B5oRXpBBW//HKI2Pla77HgLQVFzEkGM55BIoJwAVMNM=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>KQOD641a9+qxuGqKtZzX+QNJGqSH/8HDORSzpmyXj5g=</DigestValue>
+<DigestValue>AWnqjPyCk2Vf7kGj6qfRfOboTv2LZqG2tUQFe+7BjIw=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0/mhZV4kwFnSzCSp45AhFjWaQnaie61uW8VeXioOLQg=</DigestValue>
+<DigestValue>WgxHJNurR1WWWBkxYeqFYjGnnzrej23RnJXLNIBqv5s=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,11 +20,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>aRjOcmvAT5Mu0eDbTM6aKPUzpw44Ai4V52PG0Bqa2Zw=</DigestValue>
+<DigestValue>GU9+16QUGTKQnjZGfx0t3Fnpw2tkLemT2M/OBnmaheI=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>KKYceekdEvveZkpVzU5iBmVy+duRikUyea9XjAI73Po=</DigestValue>
+<DigestValue>sQXiJr2qfDbuA/NVgJ/Cef+oJ8U4cEHsWQp3zGCoMwU=</DigestValue>
 </Reference>
 <Reference URI="js%2Fparse-latest.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -2863,9 +2863,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-qr1hm6lFwuDXDKukmT30O4TJFTbU0WPaLvzJc4u6F9g138+unLPA7CqyM6gmFDd0Neb4aVmSxWFl
-YwwJWR81yVjAtIsdyV5ZKwoOFL04G1+XDav72yuqPyAYMI0m93GgK6IM78yrVR9q9Xb7bUmmrOtp
-oK1qxvGPJbT69QBM2kY=
+ZzGWzoASuAY1vexx6lJkBlZjiea+34K2ZZyzrid6YTVptFme1g+l+sRa+9eE1BiFhd9PeZMNe6Gs
+sn9Gof+0b1soC/WuGPhX6tVUf9WfJmj3Q3dulyXDXUSpTOA4cMyZx2VH/VNYQvJ7SQoCanIZs/Q+
+1bk9D9GyRcLxiWkBhbo=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
