@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Basic Send Potato" />
+    <meta name="description" content="Say Yo!" />
     <!-- <script src="./js/tau-config.js"></script> -->
     <!-- <script src="./lib/tau/wearable/js/tau.js"></script> -->
     <script src="./lib/jquery-1.11.3.js"></script>
-    <script src="js/parse-latest.js"></script>
-    <title>Send Potato POC</title>
+    <script src="js/jquery.xmpp.js"></script>
+    <title>Say YO POC</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/main.js"></script>
 </head>
@@ -17,8 +17,14 @@
 <body>
     <div id="container">
         <div id="contents">
-            <span id="content_text">Send <br />Potato</span>
+            <input type="radio" name="user" value="ursinho" checked> Ursinho
+            <input type="radio" name="user" value="renannery10"> renannery10
+            <br />
+            <button id="connectBut">Connect</button>
+            <button id="disconnectBut">Disconnect</button>
+            <button id="sendMessage">Send</button>
         </div>
     </div>
 </body>
+
 </html>
