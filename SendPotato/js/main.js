@@ -1,6 +1,6 @@
 window.onload = function() {
     // TODO:: Do your initialization job
-    
+
     var jid;
     // add eventListener for tizenhwkey
     document.addEventListener('tizenhwkey', function(e) {
@@ -72,14 +72,34 @@ window.onload = function() {
             } else {
                 messageTo = "renannery10@jabber.rootbash.com";
             }
-            
+
             $.xmpp.sendMessage({
                 body: "Yo",
                 to: messageTo
             });
+
+            getUserLocation();
         });
 
     });
+
+    function getUserLocation() {
+        var options = {
+            enableHighAccuracy: true,
+            maximumAge: 600000,
+            timeout: 5
+        };
+
+        function successCallback(position) {
+            console.log(position);
+        }
+
+        function errorCallback(error) {
+            console.log(error);
+        }
+
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback, options);
+    }
 
     function openChat(options) {
         var id = MD5.hexdigest(options.to);
