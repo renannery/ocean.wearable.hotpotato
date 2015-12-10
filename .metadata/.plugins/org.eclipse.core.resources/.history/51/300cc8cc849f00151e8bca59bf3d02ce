@@ -24,7 +24,6 @@ function displayWeekDay(date) {
         arr_day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
         arr_month = ["Jan", "Fab", "Mar", "Apr", "May", "Jul", "Jun","Aug", "Sep", "Oct", "Nov", "Dec" ], 
         get_date = date.getDate(),
-        
         month = date.getMonth();
 
     if (get_date < 10) {
